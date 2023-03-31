@@ -33,6 +33,9 @@ class InputObjectField
     /** @var mixed[] */
     public $config;
 
+    public $deprecationReason;
+    public $resolve;
+
     /**
      * @param mixed[] $opts
      */
